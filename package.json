@@ -1,5 +1,5 @@
 {
-  "name": "Widget-Filter",
+  "name": "widget-filter",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -9,8 +9,7 @@
     "dev": "webpack serve",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "jest",
-    "ci": "start-test :3000 test"
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.26.9",
@@ -22,7 +21,6 @@
     "globals": "^16.0.0",
     "html-webpack-plugin": "^5.6.3",
     "jest": "^29.7.0",
-    "start-server-and-test": "^2.0.11",
     "style-loader": "^4.0.0",
     "webpack": "^5.98.0",
     "webpack-cli": "^6.0.1",
@@ -30,7 +28,6 @@
   },
   "dependencies": {
     "core-js": "^3.41.0",
-    "file-loader": "^6.2.0",
-    "puppeteer": "^24.4.0"
+    "file-loader": "^6.2.0"
   }
 }
